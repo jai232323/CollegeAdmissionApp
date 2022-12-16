@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Students.Notice_NoticeActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        app:title="Notice"
+        app:navigationIcon="@drawable/ic_back_btn"
+        app:titleTextColor="@color/white"
+        android:background="@color/bluecolor" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/NoticeRecyclerView_Student"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="58dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="340dp"
+        android:gravity="center"
+        android:id="@+id/mcaNoData">
+        <include layout="@layout/no_data_found_faculty"/>
+    </LinearLayout>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:outlineAmbientShadowColor="@color/black"
+        android:id="@+id/NoticeProgressBar_Student"/>
+
+</RelativeLayout>

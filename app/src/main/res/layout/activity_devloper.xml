@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#124"
+    tools:context=".Students.DevloperActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:navigationIcon="@drawable/ic_back_btn"
+        app:title="App Developer"
+        app:titleTextColor="@color/white"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/MyImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:src="@drawable/dev_jaii" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="App Developer"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_black"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+<!--            <TextView-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="Name "-->
+<!--                android:layout_marginLeft="35dp"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="16sp"/>-->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:layout_marginLeft="35dp"
+
+                android:src="@drawable/name_icon"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:text="J Jayakumar MCA "
+                android:textStyle="bold"
+                android:fontFamily="@font/roboto_black"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+<!--            <TextView-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="Email "-->
+<!--                android:layout_marginLeft="35dp"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="16sp"/>-->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:layout_marginLeft="35dp"
+                android:layout_gravity="center"
+                android:src="@drawable/email_icon"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_black"
+                android:layout_marginLeft="10dp"
+                android:text="jaijai86628@gmail.com\nmypersonaljk23052000@gmail.com"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+<!--            <TextView-->
+<!--                android:layout_width="150dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="Phone Number "-->
+<!--                android:layout_marginLeft="35dp"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="16sp"/>-->
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="35dp"
+                android:src="@drawable/phone_icon"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_black"
+                android:layout_marginLeft="10dp"
+                android:text="6388358105\n9047524715"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_below="@id/MyImage">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:weightSum="2">-->
+
+
+<!--&lt;!&ndash;           <de.hdodenhof.circleimageview.CircleImageView&ndash;&gt;-->
+<!--&lt;!&ndash;               android:layout_width="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;               android:layout_height="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;               android:layout_marginTop="3dp"&ndash;&gt;-->
+<!--&lt;!&ndash;               android:src="@drawable/dev_name_img"/>&ndash;&gt;-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Name"-->
+<!--                android:textColor="@color/white"-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Jayakumar J"-->
+<!--                android:textSize="18sp"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:layout_weight="1"/>-->
+
+
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:weightSum="2">-->
+
+
+<!--            <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                android:layout_width="20dp"-->
+<!--                android:layout_height="20dp"-->
+<!--                android:layout_marginTop="3dp"-->
+<!--                android:src="@drawable/phoneno"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="6383358105"-->
+<!--                android:textSize="20dp"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:layout_weight="1"/>-->
+
+
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:weightSum="2">-->
+
+
+<!--            <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                android:layout_width="20dp"-->
+<!--                android:layout_height="20dp"-->
+<!--                android:layout_marginTop="3dp"-->
+<!--                android:src="@drawable/email"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="mypersonaljk23052000@gmail.com"-->
+<!--                android:textSize="20dp"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:layout_weight="1"/>-->
+
+
+<!--        </LinearLayout>-->
+
+
+
+<!--    </LinearLayout>-->
+
+
+
+
+
+
+
+
+</RelativeLayout>

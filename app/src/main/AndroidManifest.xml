@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pecpec">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pec_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/pec_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PECPEC">
+        <activity
+            android:name=".UserLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Students.AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Students.StudentAdmissionResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Students.StudentAdmissionFormActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Students.Student_REG_LoginActivity"
+            android:exported="false" />
+        <activity android:name=".Students.Home.OnlineAdmissionActivity" />
+        <activity android:name=".Students.NavigationAdmissionForm.UpdateFirstActivity" />
+        <activity android:name=".Students.StudentMainActivity" />
+        <activity android:name=".Students.Admission.FirstyearBEActivity" />
+        <activity android:name=".Students.Admission.LateralEnterBEActivity" />
+        <activity android:name=".Students.Admission.MEActivity" />
+        <activity android:name=".Students.Admission.MCAMBAActivity" />
+        <activity android:name=".Students.NavigationAdmissionForm.NavigationMCAMBAActivity" />
+        <activity android:name=".Students.NavigationAdmissionForm.NavigationMEActivity" />
+        <activity android:name=".Students.NavigationAdmissionForm.NavigationLateralEnterBEActivity" />
+        <activity android:name=".Students.NavigationAdmissionForm.NavigationFirstyearBEActivity" />
+        <activity android:name=".Students.Department.MCAActivity" />
+        <activity android:name=".Students.Department.MBAActivity" />
+        <activity android:name=".Students.Department.CSEActivity" />
+        <activity android:name=".Students.Department.MECHActivity" />
+        <activity android:name=".Students.Department.CIVILActivity" />
+        <activity android:name=".Students.Department.ECEActivity" />
+        <activity android:name=".Students.Department.EEEActivity" />
+        <activity android:name=".Students.Department.SandHActivity" />
+        <activity android:name=".Students.Home.PrincipalActiviity" />
+        <activity android:name=".Students.Home.CorredpondentActivity" />
+        <activity android:name=".Students.DevloperActivity" />
+        <activity android:name=".Students.ContactUsActivity" />
+        <activity android:name=".Students.GenuninenessActivity" />
+        <activity android:name=".Students.Notice_NoticeActivity" />
+        <activity android:name=".Students.NavigationAdmissionForm.NavigationStudentAdmissionForm" />
+        <activity android:name=".Students.Faculty_FacultyActivity" />
+        <activity android:name=".Students.StudentLoginActivity" />
+        <activity android:name=".Staffs.Faculty.CreateStaffDetails" />
+        <activity android:name=".Staffs.Faculty.UpdateStaffActivity" />
+        <activity android:name=".FullImagerActivity" />
+        <activity android:name=".Staffs.Admission.MCAMBAActivityStaff" />
+        <activity android:name=".Staffs.Admission.MEActivityStaff" />
+        <activity android:name=".Staffs.Admission.LateralEnterBEActivity1Staff" />
+        <activity android:name=".Staffs.Admission.FirstyearBEActivityStaff" />
+        <activity android:name=".Staffs.DeleteNoticeActivity" />
+        <activity android:name=".Staffs.Faculty.FacultyActivity" />
+        <activity android:name=".Staffs.UploadImage" />
+        <activity android:name=".Staffs.Notice.UploadNotice" />
+        <activity android:name=".Staffs.Admission.AdmissionActivity" />
+        <activity android:name=".Staffs.StaffMainActivity" />
+        <activity android:name=".Students.StudentRegisterActivity" />
+        <activity android:name=".Staffs.AdminEmailActivity" />
+        <activity android:name=".Staff_Student" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

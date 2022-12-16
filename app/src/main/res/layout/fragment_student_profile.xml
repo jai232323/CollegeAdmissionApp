@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Students.Fragments.StudentProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/pec_logo"
+                    android:layout_weight="1"
+                    android:layout_marginTop="12dp"
+                    android:id="@+id/Student_Image1"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/Student_Name1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Student_Image1"
+                        android:text="pec"
+                        android:fontFamily="@font/roboto_black"
+                        android:textColor="@color/bluecolor"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/Student_Email1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="pec@gmail.com"
+                        android:fontFamily="@font/roboto_black"
+                        android:textColor="@color/bluecolor"
+                        android:textSize="14sp"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/StudentAdmissionForm"
+                android:layout_width="260dp"
+                android:layout_height="150dp"
+                android:layout_margin="15dp"
+                android:layout_gravity="center"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/circle_red"
+                        android:padding="15dp"
+                        android:src="@drawable/ic_admissionform"
+                        app:cardElevation="5dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:fontFamily="@font/roboto_black"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/red" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:fontFamily="@font/roboto_black"
+                        android:text="View Admission Form"
+                        android:textColor="@color/red"
+                        android:textSize="20sp"/>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/StudentAdmissionResult"
+                android:layout_width="260dp"
+                android:layout_height="150dp"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/circle_blue"
+                        android:padding="15dp"
+                        android:src="@drawable/ic_admission_result"
+                        app:cardElevation="5dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/bluecolor" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:fontFamily="@font/roboto_black"
+                        android:text="View Admission Result"
+                        android:textColor="@color/bluecolor"
+                        android:textSize="20sp"/>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:weightSum="2"
+                android:id="@+id/Logout"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Logout"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginLeft="100dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/red"
+                    android:fontFamily="@font/roboto_black"
+                    android:textAllCaps="false"/>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="100dp"
+                    android:src="@drawable/logout"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>

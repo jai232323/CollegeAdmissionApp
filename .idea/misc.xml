@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/drawable-v24/email.xml" value="0.181" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/drawable/circle_purple.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/drawable/circle_red.xml" value="0.26666666666666666" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/drawable/ic_admissionform.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/drawable/ic_back_btn.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/drawable/logout.xml" value="0.181" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_about.xml" value="0.24230072463768115" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_admin_email2.xml" value="0.19635416666666666" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_admission.xml" value="0.264" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_civilactivity.xml" value="0.2" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_contact_us.xml" value="0.20380434782608695" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_corredpondent.xml" value="0.20380434782608695" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_create_staff_details.xml" value="0.176" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_cseactivity.xml" value="0.24365942028985507" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_delete_notice.xml" value="0.25" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_devloper.xml" value="0.2" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_eceactivity.xml" value="0.2477355072463768" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_eeeactivity.xml" value="0.2477355072463768" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_faculty.xml" value="0.20380434782608695" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_faculty_faculty.xml" value="0.19635416666666666" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_firstyear_beactivity.xml" value="0.16203703703703703" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_firstyear_bestaff.xml" value="0.2" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_full_imager.xml" value="0.2391304347826087" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_lateral_enter_beactivity.xml" value="0.25" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_lateral_enter_beactivity1_staff.xml" value="0.25" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_mbaactivity.xml" value="0.25" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_mcaactivity.xml" value="0.2477355072463768" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_mcambaactivity.xml" value="0.264" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_meactivity.xml" value="0.25" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_mechactivity.xml" value="0.25" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_mestaff.xml" value="0.25" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_navigation_student_admission_form.xml" value="0.19635416666666666" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_notice_notice.xml" value="0.12360688956433637" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_sand_hactivity.xml" value="0.25" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_staff__student.xml" value="0.17543859649122806" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_staff_main.xml" value="0.12280701754385964" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_student_admission_form.xml" value="0.22099447513812154" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_student_admission_result.xml" value="0.264" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_student_login.xml" value="0.2" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_student_main.xml" value="0.1" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_student_reg_login.xml" value="0.2" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_student_register2.xml" value="0.2" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_update_staff.xml" value="0.176" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_upload_image.xml" value="0.25" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_upload_notice.xml" value="0.2" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_user_login.xml" value="0.25" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/activity_user_register.xml" value="0.25" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/drawer_header.xml" value="0.19658119658119658" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/faculty_item_layout.xml" value="0.264" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/faculty_item_layout_student.xml" value="0.23777173913043478" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/first_be_adapter.xml" value="0.2" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/first_be_result_adapter.xml" value="0.24230072463768115" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/firstyear_admissionforms_adapter.xml" value="0.25" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/fragment_about.xml" value="0.19635416666666666" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/fragment_admission.xml" value="0.19635416666666666" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/fragment_department.xml" value="0.19635416666666666" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/fragment_gallery.xml" value="0.19635416666666666" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/fragment_home.xml" value="0.19635416666666666" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/fragment_student_profile.xml" value="0.264" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/lateral_entry_be_adapter.xml" value="0.25407608695652173" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/lateral_entry_be_admissionform_adapter.xml" value="0.25" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/mcamba_admissionforms_adapter.xml" value="0.24682971014492755" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/mcambadapter.xml" value="0.4" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/me_adapter.xml" value="0.25407608695652173" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/me_admissionforms_adapter.xml" value="0.24682971014492755" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/nav_first_adapter1.xml" value="0.24230072463768115" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/newsfeed_ite_layout_student.xml" value="0.264" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/newsfeed_item_layout.xml" value="0.25" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/no_data_found_faculty.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/show_staffadapter.xml" value="0.4" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/layout/show_staffadapter1.xml" value="0.18671875" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/menu/bottom_nav.xml" value="0.19635416666666666" />
+        <entry key="..\:/Android Source Folder1/New Folder/PECPEC/app/src/main/res/menu/navigation_drawer.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

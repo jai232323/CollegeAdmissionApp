@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">PEC</string>
+    <!--    &lt;!&ndash; TODO: Remove or change this placeholder text &ndash;&gt;-->
+    <!--    <string name="hello_blank_fragment">Hello blank fragment</string>-->
+    <!--    <string name="hello_blank_fragment">Hello blank fragment</string>-->
+
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="pec_address">Priyadarshini Engineering College, Chettiyappanur, Vaniyambadi, Tamil Nadu 635751</string>
+
+
+    <string name="about_college">Priyadarshini Engineering College, Vaniyambadi is an engineering college in Tamil Nadu, India. It is located at Vaniyambadi, Tirupattur District of Tamil Nadu. Priyadarshini Engineering College, the flagship of Jai Barath Charitable Trust, was established in 1995 at Vaniyambadi in Tirupattur District of Tamil Nadu.</string>
+
+
+    <string-array name="theme">
+
+        <item>System Default</item>
+        <item>Dark</item>
+        <item>Light</item>
+
+    </string-array>
+
+
+    <!--    Department Paragraph-->
+    <string name="about_dept">ABOUT THE DEPARTMENT</string>
+
+    <!--    MCA-->
+    <string name="mca1">The Department of Master of Computer Applications was started with a sanctioned intake of 30 in the year 1998. In 2000 the intake increased to 60. The department of Computer Applications established in the year 1998 was affiliated to University of Madras, Chennai. From 2002 batch onwards the course is affiliated to Anna University, Chennai. The MCA is designed as an intensive full time 3 years course spread over six semester with 60 students intake and from the year 2013, Lateral Entry system was implemented for the BCA and B.Sc., Computer Science students. The structure of the program consists of core courses, supportive courses, program electives, interdisciplinary electives , Seminars, Workshops, Internships, Practical’s, Experimental Learning through Industrial Visit and Research Projects.</string>
+    <string name="mca2">So far 18 batches with 737 students were passed out, in which there were 18 University Rank Holders</string>
+
+    <!--    MBA-->
+    <string name="mba1">The Department of Management studies (DoMS) has been functioning since 2000 and at present the Department intake is 120 students under the permanent affiliation of Anna University, Approved by AICTE and the government of Tamilnadu. The department interface students with a rural background to the competitive world and infuse them with sufficient knowledge to take on any business challenges. The department focuses on innovation, Execution and social responsibility towards our getting students industry ready. Our pedagogy inculcates the attributes of design thinking and innovation that drives entrepreneurial spirit, we also provide hands on real life projects to learn organizational realities. we nurture quality education to the students by arranging workshops, seminars, conferences, guest lectures, Industrial Visit and Training and Development programs frequently throughout the year.</string>
+    <string name="mba2">The department offers various specializations like Marketing, Finance, Human Resource Management and Systems for the benefits of the students. The department has Students Association and clubs for excellence like Entrepreneurship Development Cell, Marketing club, HR club, and Finance club. The department is facilitated with qualified faculties having rich teaching, research and industrial experience, The department has produced more than 1800 alumnus who are seen in very good position in various organizations of National and International reputation. Many have started their own business. The department has been achieving very high percentage of results from its inception. We are glad to note that we have produced many university rank holders. We have inspirational academic environment, installed projectors in all class rooms. We are well staked with advanced packages and e- journals.. It ensures the holistic development of its students, thereby making them intellectually, socially, physically and spiritually balanced human beings.</string>
+
+    <!--    CSE-->
+    <string name="cse1">The Department of Computer Science and Engineering (CSE) was established in the year 1995.</string>
+    <string name="cse2">The Department was established with the mission to educate students from rural areas, so that they become enlightened individuals, improving the living standards of their Families, Industry and Society. The Post Graduate Programme viz M.E – Computer Science and engineering was introduced in the year 2014. The department is equipped with well qualified and experienced faculty members to improve and enhance the knowledge of the student community.</string>
+    <string name="cse3">The department has good computing facilities with latest and updated versions of the software. The department conducts periodic workshop, seminar and conferences to help students, research scholars and industries to share a common platform and thereby strengthen the industry institution fusion. Most of the faculty and students are members of professional bodies like ISTE, IEI and CSI.</string>
+
+    <!--    MECH-->
+    <string name="mech1">The Department of Mechanical Engineering came into being in the year 1999</string>
+    <string name="mech2">The first batch of Mechanical Engineers graduated in the year 2003. The department was first started with the intake strength of 40 seats in 1999. After, the intake was increased to 60 seats in 2004. At present the department offers 120 seats from 2014. The department has both undergraduate and postgraduate courses in Mechanical Engineering and Design. In the year 2013 Post Graduate Programme in Engineering Design was launched</string>
+    <string name="mech3">Mechanical Engineering......</string>
+    <string name="mech4">The department has laboratory and workshop facilities with modern sophisticated equipment to carry out research in all areas related to Mechanical Engineering. Throughout its history, the department has provided a strong technical foundation to prepare students to meet the changing needs of industry.</string>
+
+    <!--    CIVIL-->
+    <string name="civil1">The Department of Civil Engineering was started with a sanctioned intake of 60 in the year 2009.</string>
+    <string name="civil2">The department aims to enrich the knowledge of students in both theory and practice with a team of highly qualified faculty with rich experience in the diversified streams of Civil Engineering. The department of Civil Engineering is equipped with state-of-the-art laboratory facilities having advanced equipments and machineries operated by experienced technicians.</string>
+    <string name="civil3">Civil Engineering......</string>
+    <string name="civil4">The department plays a vital role in training the students through in-plant training and industrial visits to tackle the field associated problems arising in the industry. As a part of exchange of knowledge, the department is keen in inviting experts from reputed organizations to share their knowledge and experience with Civil Engineering students to motivate and enlighten them. Students are encouraged to actively participate in co-curricular and extra-curricular activities in reputed institutions all over India and will be suitably rewarded by the management</string>
+
+    <!--    ECE-->
+    <string name="ece1">The Department of Electronics and Communication Engineering was started in PEC in the year 1995</string>
+    <string name="ece2">With the intake of 60 students with the objective of imparting quality education in the field of Electronics and Communication and the intake was increased to 120 in the year 2013. The department started M.E.Communication System in the year 2014 with an intake of 24 students. At present, the department is offering an undergraduate course in Electronics and Communication Engineering and one post graduate course in Communication Systems. The department has well-equipped laboratories with the facility of working in various areas like Integrated circuits, Microprocessor and Microcontrollers with interfaces, Microwave and optical communication, Digital signal processing and VLSI etc. The department has dynamic and committed faculty members who have published and presented papers in various Journals, National and international conferences in the area of speech processing, image processing, wireless communication networks and neural networks. Original MATLAB 7.0 with signal processing tool box, ORCAD PSPICE 10.1 version, XILINX 9.1 version is added to the department to bring multi faceted knowledge among students in the ECE discipline. The department in association with student professional bodies like IETE,ISTE, ICTACT has organized several workshops, conferences and other technical events</string>
+    <string name="ece3">Electronics and Communication Engineering......</string>
+    <string name="ece4">The ultimate aim of the department is to foster the technical skills in the field of Electronics and Communication that will help the students to practically express their findings as products conducive to the society.</string>
+
+    <!--    EEE-->
+    <string name="eee1">"ELECTRICAL AND ELECTRONICS" is one of the most eminent branches of engineering.</string>
+    <string name="eee2">It is the power for Green India, bringing out greenery worldwide. There is efficient staff in our department with specialization in various areas. Our lab is well equipped and modernized with the latest technology. EEE paves a platform for the young talented minds to enrich the knowledge. We guide the students in displaying their ability, talents and stamina for putting forth their sustained hardwork. EEE department is equipped with AC Machines, DC Machines, Power Electronics, Integrated Circuits, Electrical Workshops, Microprocessor and Micro controller...</string>
+    <string name="eee3">Electrical Engineering......</string>
+    <string name="eee4">The department plays a vital role in training the students through in-plant training and industrial visits to tackle the field associated problems arising in the industry. As a part of exchange of knowledge, the department is keen in inviting experts from reputed organizations to share their knowledge and experience with Electrical Engineering students to motivate and enlighten them. Students are encouraged to actively participate in co-curricular and extra-curricular activities in reputed institutions all over India and will be suitably rewarded by the management</string>
+
+    <!--    S and H-->
+    <string name="SandH1">SCIENCE AND HUMANITIES [ S and H ]</string>
+    <string name="SandH2">This department, the backbone of the entire engineering education process, is efficiently supporting the engineering departments by providing high quality of training in basic sciences. Headed by the most experienced and highly qualified professor, this department has Mathematics, Physics, Chemistry and English under its canopy.</string>
+    <string name="SandH3">Most of the staff members in this department are well experienced and working for more than a decade. During the last academic year, the department had the utmost satisfaction of producing a pass percentage and above in individual subjects in the Ist Year B.E./ B.Tech. Anna University Examinations.</string>
+    <string name="SandH4"></string>
+
+
+    <string name="principalName">Dr.K.Vijayaraj, M.E., Ph.D.,
+        </string>
+    <string name="principal1">Our mission to empower the learners to grow academically, socially, and emotionally, by developing and supporting independent thinkers and problem solvers, who strive for excellence in the classroom and in the society throughout the year. I welcome and encourage your involvement in participation and input in making our college the best educational institution imparting technical education to all our students .Let us develop our college strategic plan with set targets and time frames to evaluate as to where we have succeeded or trailed and what to do to improve, strengthen our teaching skill and introduce new methods in studies, in the conduct of examinations and provide an opportunity to students to assess our lectures every semester. Also let us allow both teaching and non teaching staff to assess themselves in the most objective manner possible in order to enable the management to take realistic judgment whenever they approach for redressal of any grievances. Through this initiation we hope to attain a world class status in society and education system.</string>
+    <string name="principal2">An engineer has to face challenges in his/ her domain areas, with strong innovative ideas, and with scientific knowledge. One’s commitment to become an engineer , the devotion shown to the studies in the college will bear fruits and will be palatial throughout one’s life.</string>
+    <string name="corredpondentName">Er.A.N.SEKAR, D.Tech., D.A.E.,                                                    AMIE (Lond)
+               </string>
+    <string name="correspondent1">The essence of Engineering and Management education which has spread in India is a very positive sign not only to cater domestic needs but provide manpower to the entire world and become biggest technically trained community. Jai Barath Charitable Trust is a venture contributing to this Endeavour.</string>
+    <string name="correspondent2">We have started with full force to play a leading role in providing quality education and careers. We have identified the needs of modern Engineering, Technology and Management education for modern age students, with a vision and mission accompanying transparency</string>
+
+    <string name="about1">About Our College</string>
+    <string name="about2">WELCOME TO PRIYADARSHINI</string>
+    <string name="about3">Priyadarshini Engineering College, the flagship of Jai Barath Charitable Trust, was established in 1995 at Vaniyambadi in Vellore district of Tamilnadu</string>
+    <string name="about4">The college has been approved by All India Council for Technical Education, New Delhi and affiliated to Anna University, Chennai.</string>
+    <string name="about5">Priyadarshini Engineering College situated in the rural area of Vaniyambadi, Vellore District is committed to the vision of developing itself into a multi campus, Inter - disciplinary Institution of Excellence through symbiotic efforts and innovative practices of management and faculty to provide the student with an ambient academic environment, ideal for the pursuit of knowledge and development career.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

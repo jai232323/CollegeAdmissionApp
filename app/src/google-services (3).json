@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "552033908084",
+    "firebase_url": "https://pec-90f60-default-rtdb.firebaseio.com",
+    "project_id": "pec-90f60",
+    "storage_bucket": "pec-90f60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552033908084:android:b27204f7c1a275b623e821",
+        "android_client_info": {
+          "package_name": "com.example.pecpec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552033908084-976og281goprj5blnep0kgdlirabnnnh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiNMFe5Di2AqFBolirZvE_qt89HoAO7u4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552033908084-976og281goprj5blnep0kgdlirabnnnh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

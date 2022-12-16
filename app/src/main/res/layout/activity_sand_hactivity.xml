@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Students.Department.SandHActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar"
+            app:title="CSE"
+            app:navigationIcon="@drawable/ic_back_btn"
+            app:titleTextColor="@color/white"
+            android:background="@color/bluecolor"
+            tools:ignore="MissingConstraints" />
+        <com.smarteist.autoimageslider.SliderLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/SandHslider"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About The Science AND Humanities "
+            android:layout_marginTop="20dp"
+            android:textColor="@color/bluecolor"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:padding="5dp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/SandH1"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:justificationMode="inter_word"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/SandH2"
+            android:layout_marginTop="5dp"
+            android:textColor="#808080"
+            android:justificationMode="inter_word"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/SandH3"
+            android:textColor="#808080"
+            android:layout_marginTop="5dp"
+            android:justificationMode="inter_word"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="STAFFS"
+            android:textColorLink="@color/red"
+            android:textColor="@color/red"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:justificationMode="inter_word"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/MCARecyclerView"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/MCANoData">
+                <include layout="@layout/no_data_found_faculty"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

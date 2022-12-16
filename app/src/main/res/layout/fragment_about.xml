@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Students.Fragments.AboutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="fitXY"
+            android:id="@+id/colleg_image_about"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about1"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:fontFamily="@font/roboto_black"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"
+                android:textColor="@color/bluecolor"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about2"
+                android:textSize="22dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/roboto_black"
+                android:textStyle="bold"
+                android:justificationMode="inter_word"
+                android:textColor="@color/red"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about3"
+                android:textSize="20dp"
+                android:fontFamily="@font/roboto_black"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:textColor="#808080"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about4"
+                android:textSize="20dp"
+                android:fontFamily="@font/roboto_black"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:textColor="#808080"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about5"
+                android:textSize="20dp"
+
+                android:fontFamily="@font/roboto_black"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:textColor="#808080"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_college"
+            android:layout_marginTop="@dimen/text_margin"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:textSize="18sp"
+            android:visibility="gone"
+            android:fontFamily="@font/roboto_black"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/gray"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_label"/>
+            <TextView
+                android:fontFamily="@font/roboto_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:text="Green Environment"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/bluecolor"
+            android:layout_marginTop="10dp"
+            android:padding="@dimen/text_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Details"
+                android:textAllCaps="true"
+                android:fontFamily="@font/roboto_black"
+                android:layout_marginTop="20dp"
+                android:textSize="@dimen/title_size"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Priyadarshini Engineering College"
+                android:textSize="20sp"
+                android:fontFamily="@font/roboto_black"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chettiyappanur, Vaniyambadi - 635751. Tirupattur District,"
+                android:textSize="20sp"
+                android:fontFamily="@font/roboto_black"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_black"
+                android:text="Phone : 04174-227591 , 228477, 228972"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email : principal@priyadarshini.net.in"
+                android:textSize="20sp"
+                android:fontFamily="@font/roboto_black"
+                android:textColor="@color/white"/>
+            <ImageView
+                android:id="@+id/pec_map"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/pec_google_map_image"/>
+        </LinearLayout>
+
+        <!--      <LinearLayout-->
+        <!--          android:layout_width="match_parent"-->
+        <!--          android:layout_height="wrap_content"-->
+        <!--          android:orientation="vertical"-->
+        <!--          android:background="@color/black">-->
+
+
+        <!--          <TextView-->
+        <!--              android:layout_width="wrap_content"-->
+        <!--              android:layout_height="wrap_content"-->
+        <!--              android:text="Branch"-->
+        <!--              android:layout_marginTop="16dp"-->
+        <!--              android:textSize="@dimen/title_size"-->
+        <!--              android:layout_gravity="center_horizontal"-->
+        <!--              android:textColor="@color/white"-->
+        <!--              android:textStyle="bold"/>-->
+
+        <!--          <androidx.viewpager.widget.ViewPager-->
+        <!--              android:layout_width="match_parent"-->
+        <!--              android:layout_height="250dp"-->
+        <!--              android:layout_marginTop="@dimen/text_margin"-->
+        <!--              android:foregroundGravity="center"-->
+        <!--              android:clipToPadding="false"-->
+        <!--              android:overScrollMode="never"-->
+        <!--              android:visibility="gone"-->
+        <!--              android:id="@+id/viewpager_about"/>-->
+
+        <!--      </LinearLayout>-->
+
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

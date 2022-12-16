@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Students.StudentAdmissionFormActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/toolbar"
+                app:title="Admission Forms"
+                app:navigationIcon="@drawable/ic_back_btn"
+                app:titleTextColor="@color/white"
+                android:background="@color/bluecolor"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/firstyear1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="First Year Admission Forms"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:visibility="gone"
+                android:textColor="@color/bluecolor"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:visibility="gone"
+                android:id="@+id/firstView"
+                android:layout_marginVertical="8dp"
+                android:background="@color/bluecolor"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/firstyearRecyclerView"
+                android:visibility="gone"
+                android:nestedScrollingEnabled="false"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/firstyearData">
+                <include layout="@layout/no_data_found_faculty"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Laterl Entry B.E Admission Form"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:visibility="gone"
+                android:id="@+id/lateral2"
+                android:textColor="@color/bluecolor"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:visibility="gone"
+                android:id="@+id/lateralView"
+                android:layout_marginVertical="8dp"
+                android:background="@color/bluecolor"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Lateral_Entry_BERecyclerView"
+                android:visibility="gone"
+                android:nestedScrollingEnabled="false"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/firstyearData">
+                <include layout="@layout/no_data_found_faculty"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ME Admission Form"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:id="@+id/me1"
+                android:visibility="gone"
+                android:textColor="@color/bluecolor"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:visibility="gone"
+                android:id="@+id/meView"
+                android:layout_marginVertical="8dp"
+                android:background="@color/bluecolor"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/MERecyclerView"
+                android:visibility="gone"
+                android:nestedScrollingEnabled="false"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/firstyearData">
+                <include layout="@layout/no_data_found_faculty"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MBA-MCA Admission Form"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:id="@+id/mbamca1"
+                android:textColor="@color/bluecolor"
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:layout_marginTop="16dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:visibility="gone"
+                android:id="@+id/mbamcaView"
+                android:layout_marginVertical="8dp"
+                android:background="@color/bluecolor"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/MBAMCARecyclerView"
+                android:visibility="gone"
+                android:nestedScrollingEnabled="false"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/firstyearData">
+                <include layout="@layout/no_data_found_faculty"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

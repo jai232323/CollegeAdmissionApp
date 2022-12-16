@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:src="@drawable/ug_pg_admission"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:id="@+id/applicantImage"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_marginTop="16dp"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/ApplicantName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Joyful Jai"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/bluecolor"/>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_marginTop="5dp"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Father Name"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/ApplicantFatherName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="JayaRaman"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textColor="@color/bluecolor"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mother Name"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/ApplicantMotherName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Parvathi"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textColor="@color/bluecolor"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/ApplicantAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ambur"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textColor="@color/bluecolor"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mobile No"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/ApplicantMobileNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9047524715"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textColor="@color/bluecolor"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alter Mobile No"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/ApplicantAlterMobileNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9047524715"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textColor="@color/bluecolor"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/ApplicantEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="jaijai86628@gmail.com"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textColor="@color/bluecolor"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alter Email"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/ApplicantALterEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9047524715"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textColor="@color/bluecolor"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gender"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/ApplicantGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textColor="@color/bluecolor"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Community"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/ApplicantCommunity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SCA"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textColor="@color/bluecolor"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DOB"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/ApplicantDob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="23-05-2000"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textColor="@color/bluecolor"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Your Reference Staff"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/ApplicantReferenceStaff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sir"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textColor="@color/bluecolor"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Course"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/ApplicantCourse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MCA"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textColor="@color/bluecolor"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Name of the U.G Degree"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/ApplicantNameofTheUGDegreeME"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BCA"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/bluecolor"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Year of Passing"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/ApplicantyearofpassingME"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2021"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/bluecolor"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="U.G Register Number"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/ApplicantUGRegisterNumberME"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6567143"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/bluecolor"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="U.G Percentage"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/ApplicantUGPercentageME"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="99%"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/bluecolor"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Institution"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/ApplicantInstitutionME"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Islamiah College "
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/bluecolor"/>
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Accepted or Rejected"
+                    android:inputType="textPersonName"
+                    android:id="@+id/AcceptedOrRejected"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Verified Admission Form"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                app:strokeColor="@color/red"
+                android:textColor="@color/bluecolor"
+                android:textSize="20sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:id="@+id/VerifiedAdmissionForm"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="20dp"
+            android:background="@color/lightcopy"/>
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

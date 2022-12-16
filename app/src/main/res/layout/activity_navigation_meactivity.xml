@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Students.NavigationAdmissionForm.NavigationMEActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/toolbar"
+            app:title="ME"
+            app:navigationIcon="@drawable/ic_back_btn"
+            app:titleTextColor="@color/white"
+            android:background="@color/bluecolor"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ME(Computer Science and Engineering)"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="@color/bluecolor"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="8dp"
+            android:background="#c1c1c1"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mecse"
+            android:visibility="gone"
+            android:nestedScrollingEnabled="false"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/mecseNoData">
+            <include layout="@layout/no_data_found_faculty"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ME(Communication Systems)"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="@color/bluecolor"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="8dp"
+            android:background="#c1c1c1"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mecs"
+            android:visibility="gone"
+            android:nestedScrollingEnabled="false"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/mecsNoData">
+            <include layout="@layout/no_data_found_faculty"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ME(Power Systems Engineering)"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="@color/bluecolor"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="8dp"
+            android:background="#c1c1c1"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mepse"
+            android:visibility="gone"
+            android:nestedScrollingEnabled="false"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/mepseNoData">
+            <include layout="@layout/no_data_found_faculty"/>
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ME(Engineering Design)"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="@color/bluecolor"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="8dp"
+            android:background="#c1c1c1"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/meed"
+            android:visibility="gone"
+            android:nestedScrollingEnabled="false"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/meedNoData">
+            <include layout="@layout/no_data_found_faculty"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="8dp"
+            android:background="#c1c1c1"/>
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

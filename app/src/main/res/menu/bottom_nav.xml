@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item android:id="@+id/navigation_home"
+      android:icon="@drawable/ic_home"
+      android:tooltipText="Home"
+      android:title="Home"/>
+
+  <item android:id="@+id/navigation_admission"
+      android:icon="@drawable/ic_admission"
+      android:tooltipText="Admission"
+      android:title="Admission"/>
+
+  <item android:id="@+id/navigation_department"
+      android:icon="@drawable/ic_bottom_dept"
+      android:title="Department"/>
+
+  <item android:id="@+id/navigation_gallery"
+      android:icon="@drawable/ic_bottom_gallery"
+      android:title="Gallery"/>
+
+<!--  <item android:id="@+id/navigation_about"-->
+<!--      android:icon="@drawable/ic_bottom_about"-->
+<!--      android:title="About"/>-->
+    <item android:id="@+id/navigation_studentProfile"
+        android:icon="@drawable/ic_person"
+        android:title="Profile"/>
+</menu>
